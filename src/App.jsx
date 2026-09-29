@@ -177,7 +177,7 @@ function App() {
               <h1>Please... ek baar poora padh lena 🥺</h1>
               <p className="intro-note">Gussa ho mujhse, hona bhi chahiye shayad...<br />par please bina poora padhe jaana mat.</p>
               <button className="primary-button" onClick={() => setOpened(true)}>
-                Padh raha/rahi hoon 🥺 <span aria-hidden="true">↗</span>
+                Padh rahi hoon 🥺 <span aria-hidden="true">↗</span>
               </button>
             </div>
             <span className="intro-footnote">koi jaldi nahi hai</span>
