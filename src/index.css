@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+:root {
+  --paper: #eee7dc;
+  --soft: #b4aea4;
+  --sage: #a2b3a1;
+  --hairline: rgba(238, 231, 220, 0.16);
+  --serif: Georgia, 'Times New Roman', serif;
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--paper);
+  background: #11110f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+::selection {
+  color: #11110f;
+  background: #a2b3a1;
+}
