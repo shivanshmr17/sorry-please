@@ -409,6 +409,9 @@
 
 .no-dialog {
   width: min(100%, 460px);
+  max-height: calc(100svh - 40px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   box-sizing: border-box;
   padding: clamp(28px, 7vw, 44px);
   border: 1px solid rgba(238, 229, 215, 0.18);
